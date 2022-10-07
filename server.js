@@ -3,7 +3,7 @@ const http = require("http"); // require http
 const app = require("./app/app");
 // require(ment) declaration
 require("dotenv").config(); // read from our .env file
-require('./app/app')
+
 
 // create listen server
 http.createServer(app).listen(process.env.port, ()=> {
